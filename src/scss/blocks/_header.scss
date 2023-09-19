@@ -1,0 +1,40 @@
+.header {
+  height: 100vh;
+  position: relative;
+  background-color: #a19f9f;
+  color: hsl(0, 0%, 100%);
+  background-image: url('./../img/slider-bg/01.jpg');
+}
+
+.header a {
+  color: #fff;
+}
+
+.header__content {
+  background-color: #bebebe;
+  position: absolute;
+  z-index: 9;
+  top: 50px;
+  left: 70px;
+  bottom: 80px;
+  right: 70px;
+
+  pointer-events: none;
+
+  @media (max-width: 1200px) {
+    top: 40px;
+    left: 40px;
+    right: 40px;
+    bottom: 60px;
+
+  }
+
+  @media (max-width: 767px) {
+    top: 30px;
+    left: 5%;
+    right: 5%;
+    bottom: 30px;
+
+  }
+
+}
