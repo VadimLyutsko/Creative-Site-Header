@@ -34,9 +34,36 @@
 	background-size: cover !important;
 	background-repeat: no-repeat;
 
-	background: var(--radial-bg), var(--linear-bg),
-	url('./../img/slider-bg/01.jpg');
+	&--norway {
+		background: var(--radial-bg), var(--linear-bg),
+			url('./../img/slider-bg/01.jpg');
 
+		@include background-size;
+	}
+
+	&--austria {
+		background: var(--radial-bg), var(--linear-bg),
+			url('./../img/slider-bg/02.jpg');
+		@include background-size;
+	}
+
+	&--uae {
+		background: var(--radial-bg), var(--linear-bg),
+			url('./../img/slider-bg/03.jpg');
+		@include background-size;
+	}
+
+	&--thailand {
+		background: var(--radial-bg), var(--linear-bg),
+			url('./../img/slider-bg/04.jpg');
+		@include background-size;
+	}
+
+	&--morocco {
+		background: var(--radial-bg), var(--linear-bg),
+			url('./../img/slider-bg/05.jpg');
+		@include background-size;
+	}
 
 	color: #fff;
 
@@ -108,6 +135,26 @@
 	@include background(#000000);
 	-webkit-background-clip: text !important;
 	-webkit-text-fill-color: transparent !important;
+
+	&--norway  {
+		@include background(#051d27);
+	}
+
+	&--austria {
+		@include background(#122127 );
+	}
+
+	&--uae {
+		@include background(#aa6621 );
+	}
+
+	&--thailand {
+		@include background(#2e7c88 );
+	}
+
+	&--morocco {
+		@include background(#757575 );
+	}
 
 }
 

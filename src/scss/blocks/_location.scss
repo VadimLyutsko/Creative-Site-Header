@@ -2,12 +2,10 @@
 	flex-grow: 1;
 
 	position: relative;
-	display: flex;
-	flex-direction: column;
+	display: block;
 
 	padding: 34px 20px 26px 95px;
 
-	//background-image: url('./../img/icons/map-marker-line.svg');
 	background-image: url('./../img/icons/map-marker-line.svg');
 	background-position: 35px 40px; /* x y */
 	background-size: auto;
